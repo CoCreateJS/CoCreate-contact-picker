@@ -1,0 +1,38 @@
+{
+  "name": "@cocreate/contact-picker",
+  "version": "1.0.0",
+  "description": "Helpers for the browser Contact Picker API.",
+  "keywords": [
+    "contact-picker",
+    "contacts",
+    "browser-api",
+    "low-code",
+    "html5-framework"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "start": "webpack --config webpack.config.js",
+    "build": "webpack --mode=production --config webpack.config.js",
+    "dev": "webpack --config webpack.config.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoCreateJS/CoCreate-contact-picker.git"
+  },
+  "author": "CoCreate LLC",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/CoCreateJS/CoCreate-contact-picker/issues"
+  },
+  "homepage": "https://cocreate.app/docs/contact-picker",
+  "main": "./src/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@cocreate/webpack": "^1.9.0"
+  },
+  "allowScripts": {
+    "@cocreate/webpack@1.9.0": true
+  }
+}

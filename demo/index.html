@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CoCreate Contact Picker demo</title>
+</head>
+<body>
+    <main>
+        <h1>Select contacts</h1>
+        <p>Open the browser contact picker after the user clicks the button.</p>
+        <button id="select-contacts" type="button">Choose contacts</button>
+        <output id="contacts" aria-live="polite"></output>
+        <script type="module">
+            import ContactPicker from "../src/index.js";
+            document.querySelector("#select-contacts").addEventListener("click", async () => {
+                try { document.querySelector("#contacts").textContent = JSON.stringify(await ContactPicker.getContacts()); }
+                catch (error) { document.querySelector("#contacts").textContent = error.message; }
+            });
+        </script>
+    </main>
+</body>
+</html>
