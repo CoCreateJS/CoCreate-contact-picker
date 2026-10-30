@@ -9,7 +9,9 @@
 <body>
     <main>
         <h1>CoCreate Contact Picker</h1>
-        <p>Helpers for the browser Contact Picker API.</p>
+        <p>Open the browser's contact picker with the <code>getContacts</code> action or the JavaScript API.</p>
+        <pre><code>&lt;button actions="getContacts"&gt;Choose contacts&lt;/button&gt;</code></pre>
+        <p>Selected contacts are stored on the action element as <code>element.contacts</code> and can be read with <code>getValue()</code> or <code>getContacts()</code>. The component renders the selected array through CoCreate Render and emits <code>contactsSelected</code>. The <code>getContacts</code> action completion also includes the array in <code>event.detail.contacts</code>.</p>
         <p>Open the browser contact picker after the user clicks the button.</p>
         <p>See the demo for a minimal user-gesture example.</p>
     </main>
