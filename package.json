@@ -28,11 +28,16 @@
   },
   "homepage": "https://cocreate.app/docs/contact-picker",
   "main": "./src/index.js",
-  "dependencies": {},
+  "dependencies": {
+    "@cocreate/actions": "^1.27.0",
+    "@cocreate/render": "^1.51.0"
+  },
   "devDependencies": {
     "@cocreate/webpack": "^1.9.0"
   },
   "allowScripts": {
+    "@cocreate/actions@1.27.0": true,
+    "@cocreate/render@1.46.1": true,
     "@cocreate/webpack@1.9.0": true
   }
 }
