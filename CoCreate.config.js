@@ -11,7 +11,7 @@ module.exports = {
                 path: "/docs/contact-picker",
                 pathname: "/docs/contact-picker/index.html",
                 src: "{{./docs/index.html}}",
-                host: ["cocreate.app", "general.cocreate.app"],
+                host: ["CoCreateJS.com", "general.CoCreateJS.com"],
                 directory: "contact-picker",
                 "content-type": "{{content-type}}",
                 public: "true"

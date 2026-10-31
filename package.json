@@ -51,7 +51,7 @@
   "bugs": {
     "url": "https://github.com/CoCreateJS/CoCreate-contact-picker/issues"
   },
-  "homepage": "https://cocreate.app/docs/contact-picker",
+  "homepage": "https://CoCreateJS.com/docs/contact-picker",
   "main": "./src/index.js",
   "dependencies": {
     "@cocreate/actions": "^1.27.0",
