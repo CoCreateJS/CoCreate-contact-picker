@@ -12,31 +12,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "cocreate": {
-    "environment": [
-      "client"
-    ],
-    "interface": {
-      "schemaVersion": 1,
-      "summary": "Helpers for the browser Contact Picker API.",
-      "source": "src/index.js",
-      "declarative": {
-        "actions": [
-          {
-            "name": "getContacts"
-          }
-        ]
-      },
-      "api": {
-        "exports": [
-          "getContacts",
-          "init",
-          "isSupported",
-          "setContacts"
-        ]
-      }
-    }
-  },
   "scripts": {
     "start": "webpack --config webpack.config.js",
     "build": "webpack --mode=production --config webpack.config.js",
